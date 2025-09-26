@@ -40,7 +40,7 @@ cd webbase-DSP-system
     + view the website
     + F5 when you change something &rarr; see the results
 
-4. Install [Sigma Studio] (https://www.analog.com/en/resources/evaluation-hardware-and-software/software/ss_sigst_02.html) 4.7 (ADAU1452) 
+4. Install [Sigma Studio](https://www.analog.com/en/resources/evaluation-hardware-and-software/software/ss_sigst_02.html) 4.7 (ADAU1452) 
     + check and edit configuration
     + check tutorials for Sigma Studio for further infos
 
