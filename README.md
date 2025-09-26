@@ -26,8 +26,8 @@ A university project for controlling a DSP system via a web interface. Includes 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/USERNAME/REPO_NAME.git
-cd REPO_NAME
+git clone https://github.com/lucae98/webbase-DSP-system.git
+cd webbase-DSP-system
 ```
 
 2. Open the PlatformIO project (ESP32):
