@@ -1,0 +1,36 @@
+# =========================
+# PlatformIO / ESP32
+# =========================
+/.pio/                # Build-Verzeichnis
+/.env                 # lokale Umgebungsvariablen
+/.vscode/*
+!/.vscode/settings.json  # falls du Workspace-Einstellungen behalten willst
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.pio
+
+# =========================
+# Allgemeine temporäre Dateien
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# =========================
+# Web-Ordner
+# =========================
+/web/node_modules/     # falls Node.js/npm verwendet wird
+/web/dist/             # gebaute Dateien, falls Frontend kompiliert wird
+/web/.env              # lokale Web-Umgebungsvariablen
+
+# =========================
+# DSP / SigmaStudio
+# =========================
+/dsp/*.bak             # Backup-Dateien von DSP-Projekten
+/dsp/*.tmp

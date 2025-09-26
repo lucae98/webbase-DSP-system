@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright ©2025 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--SigmaStudio export XML file-->
+<Schematic>
+    <IC>
+        <Name>IC 1</Name>
+        <PartNumber>ADAU1452</PartNumber>
+        <Register>
+            <Name>__SafeLoad_Module__data_SafeLoad</Name>
+            <Address>24</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>20</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__address_SafeLoad</Name>
+            <Address>29</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Reset Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Hibernate Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CTRL0 Register</Name>
+            <Address>61440</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x60, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CTRL1 Register</Name>
+            <Address>61441</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CLK_SRC Register</Name>
+            <Address>61442</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MCLK_OUT Register</Name>
+            <Address>61445</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x05, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE Register</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL Lock Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE0 Register</Name>
+            <Address>61520</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x1F, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE1 Register</Name>
+            <Address>61521</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x1F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.CLK_GEN3_SRC</Name>
+            <Address>61478</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x1E, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP5_MODE</Name>
+            <Address>62741</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x70, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP6_MODE</Name>
+            <Address>62742</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x71, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP7_MODE</Name>
+            <Address>62743</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x71, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP8_MODE</Name>
+            <Address>62744</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x71, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP11_MODE</Name>
+            <Address>62747</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x07, 0x07, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP12_MODE</Name>
+            <Address>62748</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x07, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP13_MODE</Name>
+            <Address>62749</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x07, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP12_WRITE</Name>
+            <Address>62764</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SCLK_SCL_M_PIN</Name>
+            <Address>63389</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x0F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MISO_SDA_M_PIN</Name>
+            <Address>63390</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x0F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SS_M_PIN</Name>
+            <Address>63391</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x0F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MOSI_M_PIN</Name>
+            <Address>63392</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x0F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_INPUT0</Name>
+            <Address>61696</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x03, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_INPUT1</Name>
+            <Address>61697</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_OUT_RATE0</Name>
+            <Address>61760</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x05, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_OUT_RATE1</Name>
+            <Address>61761</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x06, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE0</Name>
+            <Address>61824</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE1</Name>
+            <Address>61825</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE2</Name>
+            <Address>61826</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE3</Name>
+            <Address>61827</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE4</Name>
+            <Address>61828</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE5</Name>
+            <Address>61829</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE6</Name>
+            <Address>61830</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE7</Name>
+            <Address>61831</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE8</Name>
+            <Address>61832</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE9</Name>
+            <Address>61833</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE10</Name>
+            <Address>61834</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE11</Name>
+            <Address>61835</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE12</Name>
+            <Address>61836</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE13</Name>
+            <Address>61837</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE14</Name>
+            <Address>61838</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE15</Name>
+            <Address>61839</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE16</Name>
+            <Address>61840</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE17</Name>
+            <Address>61841</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE18</Name>
+            <Address>61842</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE19</Name>
+            <Address>61843</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE20</Name>
+            <Address>61844</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE21</Name>
+            <Address>61845</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE22</Name>
+            <Address>61846</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE23</Name>
+            <Address>61847</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIFTX_INPUT</Name>
+            <Address>61888</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_0_0</Name>
+            <Address>61952</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x91, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_0_1</Name>
+            <Address>61953</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x03, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_1_0</Name>
+            <Address>61956</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x24, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_2_0</Name>
+            <Address>61960</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x04, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_2_1</Name>
+            <Address>61961</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x03, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_4_0</Name>
+            <Address>61968</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x91, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_4_1</Name>
+            <Address>61969</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x03, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_5_0</Name>
+            <Address>61972</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x24, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_5_1</Name>
+            <Address>61973</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x22, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_6_0</Name>
+            <Address>61976</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x04, 0x80, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_6_1</Name>
+            <Address>61977</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x23, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_7_0</Name>
+            <Address>61980</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x04, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_7_1</Name>
+            <Address>61981</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x22, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIF_RX_CTRL</Name>
+            <Address>62977</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x08, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIF_RESTART</Name>
+            <Address>62980</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIF_AUX_EN</Name>
+            <Address>62984</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x10, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIF_TX_EN</Name>
+            <Address>63120</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Program>
+            <Name>Program Data</Name>
+            <Address>49152</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>1916</Size>
+            <Data>0x00, 0x00, 0x00, 0x02, 0x0C, 0x00, 0xDC, 0xDC, 0x0D, 0x00, 0xFF, 0xD2, 0x0D, 0x00, 0xFF, 0xD0, 0x0D, 0x00, 0xF4, 0x50, 0x0D, 0x00, 0xF4, 0x00, 0xC0, 0x00, 0x23, 0x80, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0x00, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0xC0, 0x80, 0x00, 0x00, 0x10, 0xC0, 0x00, 0x22, 0x00, 0x80, 0x00, 0x00, 0x00, 0x08, 0x80, 0xDC, 0xE0, 0x0C, 0x00, 0xDC, 0xDC, 0xC0, 0x00, 0x28, 0x30, 0x80, 0x00, 0x00, 0x24, 0xC0, 0x00, 0x30, 0x00, 0x80, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x16, 0x06, 0x40, 0x50, 0x10, 0xC0, 0x00, 0x28, 0x30, 0x80, 0x00, 0x00, 0x30, 0xC0, 0x00, 0x30, 0x00, 0x80, 0x00, 0x00, 0x24, 0x01, 0x00, 0x00, 0x1C, 0x06, 0x40, 0x50, 0x10, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x2F, 0x0D, 0x00, 0xFF, 0xC1, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x01, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x00, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x02, 0x0D, 0x00, 0xFF, 0xD1, 0x00, 0x00, 0x00, 0x03, 0x0D, 0x00, 0xFF, 0xD2, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x01, 0x00, 0x2A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x9E, 0xDC, 0xE0, 0x08, 0x9C, 0x00, 0x10, 0x08, 0x98, 0x00, 0x14, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x4F, 0x00, 0x18, 0x08, 0x8A, 0xDC, 0xE0, 0x0A, 0x21, 0x00, 0x1E, 0x00, 0x8C, 0x20, 0x00, 0x0A, 0xA5, 0x00, 0x1D, 0x02, 0x09, 0x00, 0x47, 0xC0, 0x00, 0x28, 0x70, 0x80, 0x00, 0x60, 0x00, 0x00, 0x8C, 0x11, 0x91, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00, 0x00, 0x30, 0x00, 0xBC, 0xE9, 0x00, 0x00, 0xC2, 0xF1, 0x01, 0x00, 0x00, 0x46, 0x06, 0x00, 0x40, 0x14, 0x36, 0x40, 0x50, 0x15, 0x26, 0x40, 0x40, 0x15, 0x09, 0x2A, 0x00, 0x1E, 0x00, 0x00, 0x00, 0x00, 0x0C, 0x00, 0xFC, 0x40, 0x06, 0x40, 0x10, 0x1E, 0x0C, 0x00, 0xFC, 0x41, 0x06, 0x40, 0x10, 0x0E, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x21, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0x20, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0x1F, 0x06, 0x10, 0x10, 0x0E, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x04, 0x00, 0x08, 0x0D, 0x00, 0x00, 0x1F, 0x05, 0x4C, 0x10, 0x7E, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x24, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0x23, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0x22, 0x06, 0x10, 0x10, 0x1E, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x04, 0x00, 0x08, 0x0D, 0x00, 0x00, 0x22, 0x05, 0x4C, 0x10, 0x4E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1E, 0x00, 0x02, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x25, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0x54, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x2A, 0x03, 0x01, 0x00, 0x7B, 0xC0, 0x00, 0x0D, 0x91, 0x80, 0x47, 0xFD, 0x84, 0xC0, 0x00, 0x0D, 0x81, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0B, 0x91, 0x80, 0x46, 0xFD, 0xA0, 0xC0, 0x00, 0x0C, 0x11, 0x80, 0x17, 0xFD, 0x84, 0xC0, 0x00, 0x0C, 0x01, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0A, 0x11, 0x80, 0x16, 0xFD, 0xA0, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x25, 0xFD, 0x6A, 0x80, 0x00, 0x80, 0x00, 0x00, 0xC3, 0xF8, 0x74, 0x80, 0x03, 0x81, 0x40, 0x41, 0xC5, 0xFC, 0x6A, 0x80, 0x21, 0x88, 0x00, 0x08, 0xC3, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x42, 0x09, 0xC5, 0x05, 0x5C, 0x50, 0x00, 0x05, 0x4C, 0x10, 0xAE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x06, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1E, 0x00, 0x05, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x2B, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0x59, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x30, 0x03, 0x01, 0x00, 0xA0, 0xC0, 0x00, 0x0D, 0x91, 0x80, 0x47, 0xFD, 0x84, 0xC0, 0x00, 0x0D, 0x81, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0B, 0x91, 0x80, 0x46, 0xFD, 0xA0, 0xC0, 0x00, 0x0C, 0x11, 0x80, 0x17, 0xFD, 0x84, 0xC0, 0x00, 0x0C, 0x01, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0A, 0x11, 0x80, 0x16, 0xFD, 0xA0, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x2B, 0xFD, 0x6A, 0x80, 0x00, 0x80, 0x00, 0x00, 0xC3, 0xF8, 0x74, 0x80, 0x03, 0x81, 0x40, 0x41, 0xC5, 0xFC, 0x6A, 0x80, 0x21, 0x88, 0x00, 0x08, 0xC3, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x42, 0x09, 0xC5, 0x05, 0x5C, 0x50, 0x00, 0x05, 0x4C, 0x10, 0xDE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x0C, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1E, 0x00, 0x08, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x31, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0x5E, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x36, 0x03, 0x01, 0x00, 0xC5, 0xC0, 0x00, 0x0D, 0x91, 0x80, 0x47, 0xFD, 0x84, 0xC0, 0x00, 0x0D, 0x81, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0B, 0x91, 0x80, 0x46, 0xFD, 0xA0, 0xC0, 0x00, 0x0C, 0x11, 0x80, 0x17, 0xFD, 0x84, 0xC0, 0x00, 0x0C, 0x01, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0A, 0x11, 0x80, 0x16, 0xFD, 0xA0, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x31, 0xFD, 0x6A, 0x80, 0x00, 0x80, 0x00, 0x00, 0xC3, 0xF8, 0x74, 0x80, 0x03, 0x81, 0x40, 0x41, 0xC5, 0xFC, 0x6A, 0x80, 0x21, 0x88, 0x00, 0x08, 0xC3, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x42, 0x09, 0xC5, 0x05, 0x5C, 0x50, 0x00, 0x05, 0x4C, 0x11, 0x0E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x12, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1E, 0x00, 0x0B, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x37, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0x63, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x3C, 0x03, 0x01, 0x00, 0xEA, 0xC0, 0x00, 0x0D, 0x91, 0x80, 0x47, 0xFD, 0x84, 0xC0, 0x00, 0x0D, 0x81, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0B, 0x91, 0x80, 0x46, 0xFD, 0xA0, 0xC0, 0x00, 0x0C, 0x11, 0x80, 0x17, 0xFD, 0x84, 0xC0, 0x00, 0x0C, 0x01, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0A, 0x11, 0x80, 0x16, 0xFD, 0xA0, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x37, 0xFD, 0x6A, 0x80, 0x00, 0x80, 0x00, 0x00, 0xC3, 0xF8, 0x74, 0x80, 0x03, 0x81, 0x40, 0x41, 0xC5, 0xFC, 0x6A, 0x80, 0x21, 0x88, 0x00, 0x08, 0xC3, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x42, 0x09, 0xC5, 0x05, 0x5C, 0x50, 0x00, 0x05, 0x4C, 0x11, 0x3E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x18, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1E, 0x00, 0x0E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x3D, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0x68, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x42, 0x03, 0x01, 0x01, 0x0F, 0xC0, 0x00, 0x0D, 0x91, 0x80, 0x47, 0xFD, 0x84, 0xC0, 0x00, 0x0D, 0x81, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0B, 0x91, 0x80, 0x46, 0xFD, 0xA0, 0xC0, 0x00, 0x0C, 0x11, 0x80, 0x17, 0xFD, 0x84, 0xC0, 0x00, 0x0C, 0x01, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0A, 0x11, 0x80, 0x16, 0xFD, 0xA0, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x3D, 0xFD, 0x6A, 0x80, 0x00, 0x80, 0x00, 0x00, 0xC3, 0xF8, 0x74, 0x80, 0x03, 0x81, 0x40, 0x41, 0xC5, 0xFC, 0x6A, 0x80, 0x21, 0x88, 0x00, 0x08, 0xC3, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x42, 0x09, 0xC5, 0x05, 0x5C, 0x50, 0x00, 0x05, 0x4C, 0x11, 0x6E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x1E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1E, 0x00, 0x11, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x43, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0x6D, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x48, 0x03, 0x01, 0x01, 0x34, 0xC0, 0x00, 0x0D, 0x91, 0x80, 0x47, 0xFD, 0x84, 0xC0, 0x00, 0x0D, 0x81, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0B, 0x91, 0x80, 0x46, 0xFD, 0xA0, 0xC0, 0x00, 0x0C, 0x11, 0x80, 0x17, 0xFD, 0x84, 0xC0, 0x00, 0x0C, 0x01, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0A, 0x11, 0x80, 0x16, 0xFD, 0xA0, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x43, 0xFD, 0x6A, 0x80, 0x00, 0x80, 0x00, 0x00, 0xC3, 0xF8, 0x74, 0x80, 0x03, 0x81, 0x40, 0x41, 0xC5, 0xFC, 0x6A, 0x80, 0x21, 0x88, 0x00, 0x08, 0xC3, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x42, 0x09, 0xC5, 0x05, 0x5C, 0x50, 0x00, 0x05, 0x4C, 0x11, 0x9E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x24, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1E, 0x00, 0x14, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x49, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0x72, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x4E, 0x03, 0x01, 0x01, 0x59, 0xC0, 0x00, 0x0D, 0x91, 0x80, 0x47, 0xFD, 0x84, 0xC0, 0x00, 0x0D, 0x81, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0B, 0x91, 0x80, 0x46, 0xFD, 0xA0, 0xC0, 0x00, 0x0C, 0x11, 0x80, 0x17, 0xFD, 0x84, 0xC0, 0x00, 0x0C, 0x01, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0A, 0x11, 0x80, 0x16, 0xFD, 0xA0, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x49, 0xFD, 0x6A, 0x80, 0x00, 0x80, 0x00, 0x00, 0xC3, 0xF8, 0x74, 0x80, 0x03, 0x81, 0x40, 0x41, 0xC5, 0xFC, 0x6A, 0x80, 0x21, 0x88, 0x00, 0x08, 0xC3, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x42, 0x09, 0xC5, 0x05, 0x5C, 0x50, 0x00, 0x05, 0x4C, 0x11, 0xAE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x2A, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1E, 0x00, 0x17, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x4F, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0x77, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x54, 0x03, 0x01, 0x01, 0x7E, 0xC0, 0x00, 0x0D, 0x91, 0x80, 0x47, 0xFD, 0x84, 0xC0, 0x00, 0x0D, 0x81, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0B, 0x91, 0x80, 0x46, 0xFD, 0xA0, 0xC0, 0x00, 0x0C, 0x11, 0x80, 0x17, 0xFD, 0x84, 0xC0, 0x00, 0x0C, 0x01, 0x80, 0x06, 0xFD, 0x94, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x0A, 0x11, 0x80, 0x16, 0xFD, 0xA0, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x4F, 0xFD, 0x6A, 0x80, 0x00, 0x80, 0x00, 0x00, 0xC3, 0xF8, 0x74, 0x80, 0x03, 0x81, 0x40, 0x41, 0xC5, 0xFC, 0x6A, 0x80, 0x21, 0x88, 0x00, 0x08, 0xC3, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x42, 0x09, 0xC5, 0x05, 0x5C, 0x50, 0x00, 0x05, 0x4C, 0x11, 0xBE, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x57, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0x56, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0x55, 0x06, 0x10, 0x11, 0xAE, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x04, 0x00, 0x08, 0x0D, 0x00, 0x00, 0x55, 0x05, 0x4C, 0x11, 0xCE, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x5A, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0x59, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0x58, 0x06, 0x10, 0x11, 0xBE, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x04, 0x00, 0x08, 0x0D, 0x00, 0x00, 0x58, 0x05, 0x4C, 0x11, 0xDE, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x5C, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0x5D, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0x5B, 0x06, 0x10, 0x11, 0xCE, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x04, 0x00, 0x08, 0x0D, 0x00, 0x00, 0x5B, 0x05, 0x4C, 0x11, 0xFE, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x5F, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0x60, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0x5E, 0x06, 0x10, 0x11, 0xDE, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x04, 0x00, 0x08, 0x0D, 0x00, 0x00, 0x5E, 0x05, 0x4C, 0x11, 0xEE, 0x06, 0x00, 0x11, 0xEE, 0x06, 0x40, 0x12, 0x0E, 0x0D, 0x00, 0x00, 0x6D, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0x64, 0x0C, 0x40, 0x00, 0x61, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0x64, 0x0B, 0xA1, 0x00, 0x6B, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0x6C, 0x06, 0x00, 0x11, 0xFE, 0x06, 0x40, 0x12, 0x1E, 0x0D, 0x00, 0x00, 0x7B, 0x00, 0x04, 0x00, 0x00, 0x0A, 0xE1, 0x00, 0x72, 0x0C, 0x40, 0x00, 0x6F, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0B, 0xE1, 0x00, 0x72, 0x0B, 0xA1, 0x00, 0x79, 0x00, 0xD7, 0xED, 0x08, 0x0B, 0xB5, 0x00, 0x7A, 0x06, 0x00, 0x12, 0x0E, 0x0D, 0x00, 0xFC, 0xC0, 0x06, 0x00, 0x12, 0x1E, 0x0D, 0x00, 0xFC, 0xC1, 0x08, 0x80, 0x00, 0x10, 0x08, 0x82, 0x00, 0x14, 0x00, 0x00, 0x20, 0x01, 0x00, 0x00, 0x21, 0x02, 0x09, 0x80, 0x00, 0x10, 0x09, 0x82, 0x00, 0x14, 0x00, 0x00, 0x00, 0x02, 0x0C, 0x10, 0xF4, 0x60, 0x02, 0xC2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Program>
+        <Register>
+            <Name>DM0 Data</Name>
+            <Address>0</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>516</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x00, 0x00, 0x24, 0x00, 0x00, 0x00, 0x30, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x8A, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x4E, 0xA4, 0x00, 0x00, 0x03, 0xC0, 0x00, 0x00, 0x07, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x4E, 0xA4, 0x00, 0x00, 0x03, 0xC0, 0x00, 0x00, 0x07, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>DM1 Data</Name>
+            <Address>24660</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>176</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xE6, 0x66, 0x66, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0xFF, 0x4C, 0xCC, 0xCD, 0xFF, 0xEB, 0x85, 0x1F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_ADDRESS</Name>
+            <Address>62468</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_PULSE</Name>
+            <Address>62465</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x03, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Start Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Module>
+            <CellName>Ch1_Filter1_ESPCoeffCalculation_with Slew</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQS300MultiDPHWSlewP1Alg3</DetailedName>
+                <Description>Multi-Channel HW Slew - Double Precision( 1 ) : Frequency`lock[ False ],Gain[ 0 ],Q[ 1.41 ],Boost1`max[ 10 ],Boost1`min[ -10 ],Boost1`res[ 20 ],Boost1[ 0 ],Boost2`max[ 10 ],Boost2`min[ -10 ],Boost2`res[ 20 ],Boost2[ 0 ],Boost3`max[ 10 ],Boost3`min[ -10 ],Boost3`res[ 20 ],Boost3[ 0 ],Frequency1[ 1000 ],Frequency2[ 1000 ],FilterEnable[ False ],PhaseShifted[ False ],Slope`res[ 20 ],Slope[ 1 ],Ripple[ 0.1 ],Active1[ True ],Active2[ True ],LowPass1[ True ],LowPass2[ False ],AllPass1[ False ],AllPass2[ False ],ClassicEE_Filtering[ False ],ShelvingType[ 0 ],GeneralType[ 0 ],BandPassType[ 0 ],Type[ 5 ],ChebyshevType[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg3_slewmode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>42</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg3Targ_B2_1</Name>
+                    <Type>HexArray</Type>
+                    <Address>24660</Address>
+                    <Size>20</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch1_PreGain</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>HWGainADAU145XAlg2</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Gain[ 1 ],dBLinearLabel[ 1 ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg2target</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>35</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg2slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>36</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch1_Filter2_ESPCoeffCalculation_with Slew</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQS300MultiDPHWSlewP1Alg1</DetailedName>
+                <Description>Multi-Channel HW Slew - Double Precision( 1 ) : Frequency`lock[ False ],Gain[ 0 ],Q[ 1.41 ],Boost1`max[ 10 ],Boost1`min[ -10 ],Boost1`res[ 20 ],Boost1[ 0 ],Boost2`max[ 10 ],Boost2`min[ -10 ],Boost2`res[ 20 ],Boost2[ 0 ],Boost3`max[ 10 ],Boost3`min[ -10 ],Boost3`res[ 20 ],Boost3[ 0 ],Frequency1[ 1000 ],Frequency2[ 1000 ],FilterEnable[ True ],PhaseShifted[ False ],Slope`res[ 20 ],Slope[ 1 ],Ripple[ 0.1 ],Active1[ True ],Active2[ True ],LowPass1[ True ],LowPass2[ False ],AllPass1[ False ],AllPass2[ False ],ClassicEE_Filtering[ False ],ShelvingType[ 0 ],GeneralType[ 0 ],BandPassType[ 0 ],Type[ 5 ],ChebyshevType[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg1_slewmode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>54</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg1Targ_B2_1</Name>
+                    <Type>HexArray</Type>
+                    <Address>24670</Address>
+                    <Size>20</Size>
+                    <Data>0x00, 0xE6, 0x66, 0x66, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0xFF, 0x4C, 0xCC, 0xCD, 0xFF, 0xEB, 0x85, 0x1F, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch1_Filter3_ESPCoeffCalculation_with Slew</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQS300MultiDPHWSlewP1Alg2</DetailedName>
+                <Description>Multi-Channel HW Slew - Double Precision( 1 ) : Frequency`lock[ False ],Gain[ 0 ],Q[ 1.41 ],Boost1`max[ 10 ],Boost1`min[ -10 ],Boost1`res[ 20 ],Boost1[ 0 ],Boost2`max[ 10 ],Boost2`min[ -10 ],Boost2`res[ 20 ],Boost2[ 0 ],Boost3`max[ 10 ],Boost3`min[ -10 ],Boost3`res[ 20 ],Boost3[ 0 ],Frequency1[ 1000 ],Frequency2[ 1000 ],FilterEnable[ False ],PhaseShifted[ False ],Slope`res[ 20 ],Slope[ 1 ],Ripple[ 0.1 ],Active1[ True ],Active2[ True ],LowPass1[ True ],LowPass2[ False ],AllPass1[ False ],AllPass2[ False ],ClassicEE_Filtering[ False ],ShelvingType[ 0 ],GeneralType[ 0 ],BandPassType[ 0 ],Type[ 5 ],ChebyshevType[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg2_slewmode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>66</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg2Targ_B2_1</Name>
+                    <Type>HexArray</Type>
+                    <Address>24680</Address>
+                    <Size>20</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch1_Filter4_ESPCoeffCalculation_with Slew</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQS300MultiDPHWSlewP1Alg4</DetailedName>
+                <Description>Multi-Channel HW Slew - Double Precision( 1 ) : Frequency`lock[ False ],Gain[ 0 ],Q[ 1.41 ],Boost1`max[ 10 ],Boost1`min[ -10 ],Boost1`res[ 20 ],Boost1[ 0 ],Boost2`max[ 10 ],Boost2`min[ -10 ],Boost2`res[ 20 ],Boost2[ 0 ],Boost3`max[ 10 ],Boost3`min[ -10 ],Boost3`res[ 20 ],Boost3[ 0 ],Frequency1[ 1000 ],Frequency2[ 1000 ],FilterEnable[ False ],PhaseShifted[ False ],Slope`res[ 20 ],Slope[ 1 ],Ripple[ 0.1 ],Active1[ True ],Active2[ True ],LowPass1[ True ],LowPass2[ False ],AllPass1[ False ],AllPass2[ False ],ClassicEE_Filtering[ False ],ShelvingType[ 0 ],GeneralType[ 0 ],BandPassType[ 0 ],Type[ 5 ],ChebyshevType[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg4_slewmode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>78</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg4Targ_B2_1</Name>
+                    <Type>HexArray</Type>
+                    <Address>24690</Address>
+                    <Size>20</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch1_PostGain</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>HWGainADAU145XAlg1</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Gain[ 1 ],dBLinearLabel[ 1 ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg1target</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>86</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg1slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>87</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch1_Meter</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>SingleBandLevelDetS3001</DetailedName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>0</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001TCONST</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>111</Address>
+                    <Value>0.00119996070861816</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x4E, 0xA4, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001hold</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>112</Address>
+                    <Value>960</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x03, 0xC0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001decay</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>113</Address>
+                    <Value>0.000108480453491211</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x07, 0x1C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001X</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>121</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001X_lo</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>122</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001LinX</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>123</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3001LinX_lo</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>124</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch1_Mute</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteHWSlewAlgADAU145X1</DetailedName>
+                <Description>Mute (HW slew)( 1 ) : Mute[ False ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>MuteHWSlewAlgADAU145X1slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>92</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MuteHWSlewAlgADAU145X1mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>93</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch2_Filter1_ESPCoeffCalculation_with Slew</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQS300MultiDPHWSlewP1Alg5</DetailedName>
+                <Description>Multi-Channel HW Slew - Double Precision( 1 ) : Frequency`lock[ False ],Gain[ 0 ],Q[ 1.41 ],Boost1`max[ 10 ],Boost1`min[ -10 ],Boost1`res[ 20 ],Boost1[ 0 ],Boost2`max[ 10 ],Boost2`min[ -10 ],Boost2`res[ 20 ],Boost2[ 0 ],Boost3`max[ 10 ],Boost3`min[ -10 ],Boost3`res[ 20 ],Boost3[ 0 ],Frequency1[ 1000 ],Frequency2[ 1000 ],FilterEnable[ False ],PhaseShifted[ False ],Slope`res[ 20 ],Slope[ 1 ],Ripple[ 0.1 ],Active1[ True ],Active2[ True ],LowPass1[ True ],LowPass2[ False ],AllPass1[ False ],AllPass2[ False ],ClassicEE_Filtering[ False ],ShelvingType[ 0 ],GeneralType[ 0 ],BandPassType[ 0 ],Type[ 5 ],ChebyshevType[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg5_slewmode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>48</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg5Targ_B2_1</Name>
+                    <Type>HexArray</Type>
+                    <Address>24665</Address>
+                    <Size>20</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch2_PreGain</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>HWGainADAU145XAlg3</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Gain[ 1 ],dBLinearLabel[ 1 ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg3target</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>32</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg3slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>33</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch2_Filter2_ESPCoeffCalculation_with Slew</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQS300MultiDPHWSlewP1Alg6</DetailedName>
+                <Description>Multi-Channel HW Slew - Double Precision( 1 ) : Frequency`lock[ False ],Gain[ 0 ],Q[ 1.41 ],Boost1`max[ 10 ],Boost1`min[ -10 ],Boost1`res[ 20 ],Boost1[ 0 ],Boost2`max[ 10 ],Boost2`min[ -10 ],Boost2`res[ 20 ],Boost2[ 0 ],Boost3`max[ 10 ],Boost3`min[ -10 ],Boost3`res[ 20 ],Boost3[ 0 ],Frequency1[ 1000 ],Frequency2[ 1000 ],FilterEnable[ False ],PhaseShifted[ False ],Slope`res[ 20 ],Slope[ 1 ],Ripple[ 0.1 ],Active1[ True ],Active2[ True ],LowPass1[ True ],LowPass2[ False ],AllPass1[ False ],AllPass2[ False ],ClassicEE_Filtering[ False ],ShelvingType[ 0 ],GeneralType[ 0 ],BandPassType[ 0 ],Type[ 5 ],ChebyshevType[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg6_slewmode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>60</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg6Targ_B2_1</Name>
+                    <Type>HexArray</Type>
+                    <Address>24675</Address>
+                    <Size>20</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch2_Filter3_ESPCoeffCalculation_with Slew</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQS300MultiDPHWSlewP1Alg7</DetailedName>
+                <Description>Multi-Channel HW Slew - Double Precision( 1 ) : Frequency`lock[ False ],Gain[ 0 ],Q[ 1.41 ],Boost1`max[ 10 ],Boost1`min[ -10 ],Boost1`res[ 20 ],Boost1[ 0 ],Boost2`max[ 10 ],Boost2`min[ -10 ],Boost2`res[ 20 ],Boost2[ 0 ],Boost3`max[ 10 ],Boost3`min[ -10 ],Boost3`res[ 20 ],Boost3[ 0 ],Frequency1[ 1000 ],Frequency2[ 1000 ],FilterEnable[ False ],PhaseShifted[ False ],Slope`res[ 20 ],Slope[ 1 ],Ripple[ 0.1 ],Active1[ True ],Active2[ True ],LowPass1[ True ],LowPass2[ False ],AllPass1[ False ],AllPass2[ False ],ClassicEE_Filtering[ False ],ShelvingType[ 0 ],GeneralType[ 0 ],BandPassType[ 0 ],Type[ 5 ],ChebyshevType[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg7_slewmode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>72</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg7Targ_B2_1</Name>
+                    <Type>HexArray</Type>
+                    <Address>24685</Address>
+                    <Size>20</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch2_Filter4_ESPCoeffCalculation_with Slew</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQS300MultiDPHWSlewP1Alg8</DetailedName>
+                <Description>Multi-Channel HW Slew - Double Precision( 1 ) : Frequency`lock[ False ],Gain[ 0 ],Q[ 1.41 ],Boost1`max[ 10 ],Boost1`min[ -10 ],Boost1`res[ 20 ],Boost1[ 0 ],Boost2`max[ 10 ],Boost2`min[ -10 ],Boost2`res[ 20 ],Boost2[ 0 ],Boost3`max[ 10 ],Boost3`min[ -10 ],Boost3`res[ 20 ],Boost3[ 0 ],Frequency1[ 1000 ],Frequency2[ 1000 ],FilterEnable[ False ],PhaseShifted[ False ],Slope`res[ 20 ],Slope[ 1 ],Ripple[ 0.1 ],Active1[ True ],Active2[ True ],LowPass1[ True ],LowPass2[ False ],AllPass1[ False ],AllPass2[ False ],ClassicEE_Filtering[ False ],ShelvingType[ 0 ],GeneralType[ 0 ],BandPassType[ 0 ],Type[ 5 ],ChebyshevType[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg8_slewmode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>84</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQS300MultiDPHWSlewP1Alg8Targ_B2_1</Name>
+                    <Type>HexArray</Type>
+                    <Address>24695</Address>
+                    <Size>20</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch2_PostGain</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>HWGainADAU145XAlg4</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Gain[ 1 ],dBLinearLabel[ 1 ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg4target</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>89</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg4slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>90</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName> Ch2_Meter</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>SingleBandLevelDetS3002</DetailedName>
+                <Description>Single Band( 1 ) : MaxRange[ 0 ],MinRange[ -96 ],IsLinear[ False ],Units[ dB ],Inv_Display[ False ];</Description>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>0</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002TCONST</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>97</Address>
+                    <Value>0.00119996070861816</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x4E, 0xA4, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002hold</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>98</Address>
+                    <Value>960</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x03, 0xC0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002decay</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>99</Address>
+                    <Value>0.000108480453491211</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x07, 0x1C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002X</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>107</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002X_lo</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>108</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002LinX</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>109</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SingleBandLevelDetS3002LinX_lo</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>110</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Ch2_Mute1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteHWSlewAlgADAU145X2</DetailedName>
+                <Description>Mute (HW slew)( 1 ) : Mute[ False ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>MuteHWSlewAlgADAU145X2slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>95</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MuteHWSlewAlgADAU145X2mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>96</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+    </IC>
+    <IC>
+        <Name>IC 2</Name>
+    </IC>
+</Schematic>

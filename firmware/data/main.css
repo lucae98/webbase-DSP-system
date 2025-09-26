@@ -1,0 +1,286 @@
+/* ===========================
+   Grundlegende Layout-Einstellungen
+   =========================== */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    line-height: 1.2;
+}
+
+/* ===========================
+   Container-System
+   =========================== */
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: stretch;
+    /* sorgt dafür, dass alle Container gleich hoch sind */
+}
+
+.container {
+    flex: 1 1 150px;
+    /* gleichmäßige, flexible Breite */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    /* gleicht Innenhöhe besser aus */
+}
+
+/* Speziell für Mute-Container */
+.mute-container {
+    flex: 0 0 auto;
+    /* verhindert flex-grow und flex-shrink */
+    max-width: 120px;
+    /* maximale Breite */
+    width: auto;
+    /* natürliche Breite */
+    min-width: unset;
+}
+
+/* ===========================
+   Formularelemente
+   =========================== */
+label {
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* ===========================
+   Ausgabebereich (z.B. Debug-Text)
+   =========================== */
+.outputText {
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ===========================
+   Mute-Switch (Toggle)
+   =========================== */
+.switch {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    margin: 20px auto;
+    /* horizontale Zentrierung */
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #dc3545;
+}
+
+input:checked+.slider:before {
+    transform: translateX(20px);
+}
+
+/* ===========================
+   Input "LED"
+   =========================== */
+/* LED-Container wie Input, horizontal + vertikal zentriert */
+.led-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* Abstand zwischen L und R */
+    margin: 10px 0 0 0;
+    width: 100%;
+    /* volle Breite */
+}
+
+#outputSignalLeds {
+    margin: 0% 0;
+    padding: 0;
+}
+
+
+.led-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* LED (Kreis) */
+.led {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.led.green {
+    background-color: #28a745;
+    box-shadow: 0 0 8px #28a745;
+}
+
+.led.yellow {
+    background-color: #e7f708;
+    box-shadow: 0 0 8px #e7f708;
+}
+
+
+.led.red {
+    background-color: #dc3545;
+    box-shadow: 0 0 8px #dc3545;
+}
+
+.led.black {
+    background-color: #000000;
+    box-shadow: 0 0 8px #000000;
+}
+
+/* ===========================
+   Filter-Header mit Bypass-Button
+   =========================== */
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter-header h1 {
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.bypass-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.bypass-btn.active {
+    background-color: #dc3545;
+    /* Grau für aktiven Bypass */
+}
+
+/* ===========================
+   Responsive Design
+   =========================== */
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .container-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    #gainSlider {
+        height: 150px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

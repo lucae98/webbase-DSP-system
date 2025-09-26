@@ -1,0 +1,441 @@
+Cell Name         = Ch1_Filter1_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg3_slewmode
+Parameter Address = 42
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch1_Filter1_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg3Targ_B2_1
+Parameter Address = 24660
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x01, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch1_PreGain
+Parameter Name    = HWGainADAU145XAlg2slew_mode
+Parameter Address = 36
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch1_PreGain
+Parameter Name    = HWGainADAU145XAlg2target
+Parameter Address = 35
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch1_Filter2_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg1_slewmode
+Parameter Address = 54
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch1_Filter2_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg1Targ_B2_1
+Parameter Address = 24670
+Parameter Data :
+0x00, 0xE6, 0x66, 0x66, 
+0x00, 0x00, 0x00, 0x00, 
+0x01, 0x00, 0x00, 0x00, 
+0xFF, 0x4C, 0xCC, 0xCD, 
+0xFF, 0xEB, 0x85, 0x1F, 
+
+
+
+Cell Name         = Ch1_Filter3_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg2_slewmode
+Parameter Address = 66
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch1_Filter3_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg2Targ_B2_1
+Parameter Address = 24680
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x01, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch1_Filter4_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg4_slewmode
+Parameter Address = 78
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch1_Filter4_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg4Targ_B2_1
+Parameter Address = 24690
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x01, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch1_PostGain
+Parameter Name    = HWGainADAU145XAlg1slew_mode
+Parameter Address = 87
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch1_PostGain
+Parameter Name    = HWGainADAU145XAlg1target
+Parameter Address = 86
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch1_Meter
+Parameter Name    = SingleBandLevelDetS3001TCONST
+Parameter Address = 111
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x4E ,	0xA4 ,	
+
+
+
+Cell Name         = Ch1_Meter
+Parameter Name    = SingleBandLevelDetS3001hold
+Parameter Address = 112
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Ch1_Meter
+Parameter Name    = SingleBandLevelDetS3001decay
+Parameter Address = 113
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x07 ,	0x1C ,	
+
+
+
+Cell Name         = Ch1_Meter
+Parameter Name    = SingleBandLevelDetS3001X
+Parameter Address = 121
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Ch1_Meter
+Parameter Name    = SingleBandLevelDetS3001X_lo
+Parameter Address = 122
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Ch1_Meter
+Parameter Name    = SingleBandLevelDetS3001LinX
+Parameter Address = 123
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Ch1_Meter
+Parameter Name    = SingleBandLevelDetS3001LinX_lo
+Parameter Address = 124
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         = Ch1_Meter
+Parameter Name    = SingleBandLevelDetS3001
+Parameter Address = 0
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch1_Mute
+Parameter Name    = MuteHWSlewAlgADAU145X1mute
+Parameter Address = 93
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch1_Mute
+Parameter Name    = MuteHWSlewAlgADAU145X1slew_mode
+Parameter Address = 92
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch2_Filter1_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg5_slewmode
+Parameter Address = 48
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch2_Filter1_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg5Targ_B2_1
+Parameter Address = 24665
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x01, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch2_PreGain
+Parameter Name    = HWGainADAU145XAlg3slew_mode
+Parameter Address = 33
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch2_PreGain
+Parameter Name    = HWGainADAU145XAlg3target
+Parameter Address = 32
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch2_Filter2_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg6_slewmode
+Parameter Address = 60
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch2_Filter2_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg6Targ_B2_1
+Parameter Address = 24675
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x01, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch2_Filter3_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg7_slewmode
+Parameter Address = 72
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch2_Filter3_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg7Targ_B2_1
+Parameter Address = 24685
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x01, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch2_Filter4_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg8_slewmode
+Parameter Address = 84
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch2_Filter4_ESPCoeffCalculation_with Slew
+Parameter Name    = EQS300MultiDPHWSlewP1Alg8Targ_B2_1
+Parameter Address = 24695
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x01, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch2_PostGain
+Parameter Name    = HWGainADAU145XAlg4slew_mode
+Parameter Address = 90
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = Ch2_PostGain
+Parameter Name    = HWGainADAU145XAlg4target
+Parameter Address = 89
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         =  Ch2_Meter
+Parameter Name    = SingleBandLevelDetS3002TCONST
+Parameter Address = 97
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x4E ,	0xA4 ,	
+
+
+
+Cell Name         =  Ch2_Meter
+Parameter Name    = SingleBandLevelDetS3002hold
+Parameter Address = 98
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         =  Ch2_Meter
+Parameter Name    = SingleBandLevelDetS3002decay
+Parameter Address = 99
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x07 ,	0x1C ,	
+
+
+
+Cell Name         =  Ch2_Meter
+Parameter Name    = SingleBandLevelDetS3002X
+Parameter Address = 107
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         =  Ch2_Meter
+Parameter Name    = SingleBandLevelDetS3002X_lo
+Parameter Address = 108
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         =  Ch2_Meter
+Parameter Name    = SingleBandLevelDetS3002LinX
+Parameter Address = 109
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         =  Ch2_Meter
+Parameter Name    = SingleBandLevelDetS3002LinX_lo
+Parameter Address = 110
+Parameter Value   = 0
+Parameter Data :
+0x00 ,	0x00 ,	0x00 ,	0x00 ,	
+
+
+
+Cell Name         =  Ch2_Meter
+Parameter Name    = SingleBandLevelDetS3002
+Parameter Address = 0
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch2_Mute1
+Parameter Name    = MuteHWSlewAlgADAU145X2mute
+Parameter Address = 96
+Parameter Value   = 1
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Ch2_Mute1
+Parameter Name    = MuteHWSlewAlgADAU145X2slew_mode
+Parameter Address = 95
+Parameter Value   = 8330
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = __SafeLoad_Module__data_SafeLoad
+Parameter Address = 24
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = __SafeLoad_Module__address_SafeLoad
+Parameter Address = 29
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
