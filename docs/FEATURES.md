@@ -18,5 +18,5 @@ This document lists possible new features and improvements for the project.
 ## Software / Web
 
 - [ ] Optimization and refactoring of firmware and website.
-- [ ]Adding proper error handling.
+- [ ] Adding proper error handling.
 
