@@ -83,10 +83,11 @@ cd webbase-DSP-system
 
 ```text
 webbase-DSP-systemwir/
-├─ web/ # Website files: HTML, CSS, JS
-├─ firmware/ # ESP32 / Arduino firmware
+├─ docs/ # Documentation 
 ├─ dsp/ # SigmaStudio DSP projects
-├─ docs/ # Documentation / images
+├─ firmware/ # ESP32-Firmware (Arduino)
+├─ sim/ # Jupyter-Notebook for biquad-filter simulation
+├─ web/ # Website files
 └─ README.md
 ```
 
