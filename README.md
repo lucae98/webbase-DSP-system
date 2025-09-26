@@ -9,7 +9,7 @@ A university project for controlling a DSP system via a web interface. Includes 
 | Screenshot | Description |
 |------------|-------------|
 | ![DSP GUI](./docs/images/Full-Hardware-Setup.jpg) | Hardware Set UP |
-| ![Web Interface](./docs/images/Edited_WebUI_ESP-Project.png) | Web frontend |
+| ![Web Interface](./docs/images/WebUI_ESP-Project.png) | Web frontend |
 
 ---
 
