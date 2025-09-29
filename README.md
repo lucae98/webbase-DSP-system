@@ -43,6 +43,7 @@ cd webbase-DSP-system
 4. Install [Sigma Studio](https://www.analog.com/en/resources/evaluation-hardware-and-software/software/ss_sigst_02.html) 4.7 (ADAU1452) 
     + check and edit configuration
     + check tutorials for Sigma Studio for further infos
+    + connect via JTAG-Adapter like this: [TinySine-USBi-JTAG](https://www.hs-sound.de/TinySine-USBi-JTAG)
 
 5. Connections:
 
