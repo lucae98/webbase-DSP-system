@@ -1,3 +1,11 @@
+/****************************************************************************
+ * Filename:    DSPSignals.cpp
+ * Description: DSPSignals.cpp from webbase-DSP-system
+ * Author:      Luca Echterhof
+ * Year:        2025
+ * License:     GPL-3.0 License
+ ****************************************************************************/
+
 #include "DSPSignals.h"
 #include "IO.h" // Include the My IO library to handle gloabl data
 

@@ -1,3 +1,11 @@
+/****************************************************************************
+ * Filename:    IO.cpp
+ * Description: IO.cpp from webbase-DSP-system
+ * Author:      Luca Echterhof
+ * Year:        2025
+ * License:     GPL-3.0 License
+ ****************************************************************************/
+
 #include "IO.h"
 #include "DSPSignals.h"
 

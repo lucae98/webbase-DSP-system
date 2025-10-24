@@ -1,3 +1,11 @@
+/****************************************************************************
+ * Filename:    WebserverHandler.h
+ * Description: WebserverHandler.h from webbase-DSP-system
+ * Author:      Luca Echterhof
+ * Year:        2025
+ * License:     GPL-3.0 License
+ ****************************************************************************/
+
 #ifndef WEBSERVERHANDLER_H
 #define WEBSERVERHANDLER_H
 

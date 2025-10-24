@@ -1,3 +1,11 @@
+/****************************************************************************
+ * Filename:    main.cpp
+ * Description: main.cpp from webbase-DSP-system
+ * Author:      Luca Echterhof
+ * Year:        2025
+ * License:     GPL-3.0 License
+ ****************************************************************************/
+
 #include <Arduino.h>          // Include the Arduino core library
 #include <WiFi.h>             // Include the WiFi library
 #include "WebserverHandler.h" // Include the My WebServer library to handle HTTP requests

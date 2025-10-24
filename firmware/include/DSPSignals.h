@@ -1,3 +1,11 @@
+/****************************************************************************
+ * Filename:    DSPSignals.h
+ * Description: DSPSignals.h from webbase-DSP-system
+ * Author:      Luca Echterhof
+ * Year:        2025
+ * License:     GPL-3.0 License
+ ****************************************************************************/
+
 #ifndef DSPSIGNALS_H
 #define DSPSIGNALS_H
 

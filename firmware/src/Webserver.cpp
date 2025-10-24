@@ -1,3 +1,11 @@
+/****************************************************************************
+ * Filename:    Webserver.cpp
+ * Description: Webserver.cpp from webbase-DSP-system
+ * Author:      Luca Echterhof
+ * Year:        2025
+ * License:     GPL-3.0 License
+ ****************************************************************************/
+
 #include "WebserverHandler.h"
 #include "IO.h" // Include the My IO library to handle gloabl data
 

@@ -1,3 +1,11 @@
+/****************************************************************************
+ * Filename:    IO.h
+ * Description: IO.h from webbase-DSP-system
+ * Author:      Luca Echterhof
+ * Year:        2025
+ * License:     GPL-3.0 License
+ ****************************************************************************/
+
 #ifndef IO_H
 #define IO_H
 
